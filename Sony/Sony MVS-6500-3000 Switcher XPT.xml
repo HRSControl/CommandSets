@@ -1,0 +1,1826 @@
+<CommandSet xmlns="http://schemas.datacontract.org/2004/07/Model" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <ArgumentLists xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+      <a:Key>ONOFFList</a:Key>
+      <a:Value>
+        <DeviceQueryResult>
+          <Result>OFF</Result>
+          <Value>0</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ON</Result>
+          <Value>1</Value>
+        </DeviceQueryResult>
+      </a:Value>
+    </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+    <a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+      <a:Key>Commands</a:Key>
+      <a:Value>
+        <DeviceQueryResult>
+          <Result>BKGD A</Result>
+          <Value>À</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>BKGD B</Result>
+          <Value>Á</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 1 Fill</Result>
+          <Value>Ç</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 1 Source</Result>
+          <Value>È</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 2 Fill</Result>
+          <Value>Í</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 2 Source</Result>
+          <Value>Î</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 3 Fill</Result>
+          <Value>É</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 3 Source</Result>
+          <Value>Ê</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 4 Fill</Result>
+          <Value>Ë</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 4 Source</Result>
+          <Value>Ì</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 5 Fill</Result>
+          <Value>Ð</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 5 Source</Result>
+          <Value>Ñ</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 6 Fill</Result>
+          <Value>Ö</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 6 Source</Result>
+          <Value>×</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 7 Fill</Result>
+          <Value>Ò</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 7 Source</Result>
+          <Value>Ó</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 8 Fill</Result>
+          <Value>Ô</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Key 8 Source</Result>
+          <Value>Õ</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Utility 1 Bus</Result>
+          <Value>Ï</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Utility 2 Bus / MP2 Source</Result>
+          <Value>Â</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Utility 3 Bus / MP2 Source</Result>
+          <Value>Æ</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>DME Return V</Result>
+          <Value>Ã</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>DME Return K</Result>
+          <Value>Ä</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>DME EXT</Result>
+          <Value>Å</Value>
+        </DeviceQueryResult>
+      </a:Value>
+    </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+    <a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+      <a:Key>Effects</a:Key>
+      <a:Value>
+        <DeviceQueryResult>
+          <Result>P/P</Result>
+          <Value>&#x0;</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>M/E 1</Result>
+          <Value>&#x1;</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>M/E 2</Result>
+          <Value>&#x2;</Value>
+        </DeviceQueryResult>
+      </a:Value>
+    </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+    <a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+      <a:Key>TallySource</a:Key>
+      <a:Value>
+        <DeviceQueryResult>
+          <Result>Low Tally 0 Source</Result>
+          <Value>&#x0;</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>High Tally 0 Source</Result>
+          <Value></Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Low Tally 256 Source</Result>
+          <Value>&#x1;</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>High Tally 256 Source</Result>
+          <Value></Value>
+        </DeviceQueryResult>
+      </a:Value>
+    </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+    <a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+      <a:Key>Sources 1-255</a:Key>
+      <a:Value>
+        <DeviceQueryResult>
+          <Result>Primary1</Result>
+          <Value>1</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary2</Result>
+          <Value>2</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary3</Result>
+          <Value>3</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary4</Result>
+          <Value>4</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary5</Result>
+          <Value>5</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary6</Result>
+          <Value>6</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary7</Result>
+          <Value>7</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary8</Result>
+          <Value>8</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary9</Result>
+          <Value>9</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary10</Result>
+          <Value>10</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary11</Result>
+          <Value>11</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary12</Result>
+          <Value>12</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary13</Result>
+          <Value>13</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary14</Result>
+          <Value>14</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary15</Result>
+          <Value>15</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary16</Result>
+          <Value>16</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary17</Result>
+          <Value>17</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary18</Result>
+          <Value>18</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary19</Result>
+          <Value>19</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary20</Result>
+          <Value>20</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary21</Result>
+          <Value>21</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary22</Result>
+          <Value>22</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary23</Result>
+          <Value>23</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary24</Result>
+          <Value>24</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary25</Result>
+          <Value>25</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary26</Result>
+          <Value>26</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary27</Result>
+          <Value>27</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary28</Result>
+          <Value>28</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary29</Result>
+          <Value>29</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary30</Result>
+          <Value>30</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary31</Result>
+          <Value>31</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary32</Result>
+          <Value>32</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary33</Result>
+          <Value>33</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary34</Result>
+          <Value>34</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary35</Result>
+          <Value>35</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary36</Result>
+          <Value>36</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary37</Result>
+          <Value>37</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary38</Result>
+          <Value>38</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary39</Result>
+          <Value>39</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary40</Result>
+          <Value>40</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary41</Result>
+          <Value>41</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary42</Result>
+          <Value>42</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary43</Result>
+          <Value>43</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary44</Result>
+          <Value>44</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary45</Result>
+          <Value>45</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary46</Result>
+          <Value>46</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary47</Result>
+          <Value>47</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Primary48</Result>
+          <Value>48</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>49</Result>
+          <Value>49</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>50</Result>
+          <Value>50</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>51</Result>
+          <Value>51</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>52</Result>
+          <Value>52</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>53</Result>
+          <Value>53</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>54</Result>
+          <Value>54</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>55</Result>
+          <Value>55</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>56</Result>
+          <Value>56</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>57</Result>
+          <Value>57</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>58</Result>
+          <Value>58</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>59</Result>
+          <Value>59</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>60</Result>
+          <Value>60</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>61</Result>
+          <Value>61</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>62</Result>
+          <Value>62</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>63</Result>
+          <Value>63</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>64</Result>
+          <Value>64</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>65</Result>
+          <Value>65</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>66</Result>
+          <Value>66</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>67</Result>
+          <Value>67</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>68</Result>
+          <Value>68</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>69</Result>
+          <Value>69</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>70</Result>
+          <Value>70</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>71</Result>
+          <Value>71</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>72</Result>
+          <Value>72</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>73</Result>
+          <Value>73</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>74</Result>
+          <Value>74</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>75</Result>
+          <Value>75</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>76</Result>
+          <Value>76</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>77</Result>
+          <Value>77</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>78</Result>
+          <Value>78</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>79</Result>
+          <Value>79</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>80</Result>
+          <Value>80</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>81</Result>
+          <Value>81</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>82</Result>
+          <Value>82</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>83</Result>
+          <Value>83</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>84</Result>
+          <Value>84</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>85</Result>
+          <Value>85</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>86</Result>
+          <Value>86</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>87</Result>
+          <Value>87</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>88</Result>
+          <Value>88</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>89</Result>
+          <Value>89</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>90</Result>
+          <Value>90</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>91</Result>
+          <Value>91</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>92</Result>
+          <Value>92</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>93</Result>
+          <Value>93</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>94</Result>
+          <Value>94</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>95</Result>
+          <Value>95</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>96</Result>
+          <Value>96</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>97</Result>
+          <Value>97</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>98</Result>
+          <Value>98</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>99</Result>
+          <Value>99</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>100</Result>
+          <Value>100</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>101</Result>
+          <Value>101</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>102</Result>
+          <Value>102</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>103</Result>
+          <Value>103</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>104</Result>
+          <Value>104</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>105</Result>
+          <Value>105</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>106</Result>
+          <Value>106</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>107</Result>
+          <Value>107</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>108</Result>
+          <Value>108</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>109</Result>
+          <Value>109</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>110</Result>
+          <Value>110</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>111</Result>
+          <Value>111</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>112</Result>
+          <Value>112</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>113</Result>
+          <Value>113</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>114</Result>
+          <Value>114</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>115</Result>
+          <Value>115</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>116</Result>
+          <Value>116</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>117</Result>
+          <Value>117</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>118</Result>
+          <Value>118</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>119</Result>
+          <Value>119</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>120</Result>
+          <Value>120</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>121</Result>
+          <Value>121</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>122</Result>
+          <Value>122</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>123</Result>
+          <Value>123</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>124</Result>
+          <Value>124</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>125</Result>
+          <Value>125</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>126</Result>
+          <Value>126</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>127</Result>
+          <Value>127</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>128</Result>
+          <Value>128</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>129</Result>
+          <Value>129</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>130</Result>
+          <Value>130</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>131</Result>
+          <Value>131</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>132</Result>
+          <Value>132</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>133</Result>
+          <Value>133</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>134</Result>
+          <Value>134</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>135</Result>
+          <Value>135</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>136</Result>
+          <Value>136</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>137</Result>
+          <Value>137</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>138</Result>
+          <Value>138</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>139</Result>
+          <Value>139</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>140</Result>
+          <Value>140</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>141</Result>
+          <Value>141</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>142</Result>
+          <Value>142</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>143</Result>
+          <Value>143</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>144</Result>
+          <Value>144</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>145</Result>
+          <Value>145</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>146</Result>
+          <Value>146</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>147</Result>
+          <Value>147</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>148</Result>
+          <Value>148</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>149</Result>
+          <Value>149</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>150</Result>
+          <Value>150</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>151</Result>
+          <Value>151</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>152</Result>
+          <Value>152</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>153</Result>
+          <Value>153</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>154</Result>
+          <Value>154</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>155</Result>
+          <Value>155</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>156</Result>
+          <Value>156</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>157</Result>
+          <Value>157</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>158</Result>
+          <Value>158</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>159</Result>
+          <Value>159</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>160</Result>
+          <Value>160</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>161</Result>
+          <Value>161</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>162</Result>
+          <Value>162</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>163</Result>
+          <Value>163</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>164</Result>
+          <Value>164</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FC1</Result>
+          <Value>165</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FC2</Result>
+          <Value>166</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FC3</Result>
+          <Value>167</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FC4</Result>
+          <Value>168</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FC5</Result>
+          <Value>169</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FC6</Result>
+          <Value>170</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FC7</Result>
+          <Value>171</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FC8</Result>
+          <Value>172</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>173</Result>
+          <Value>173</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>174</Result>
+          <Value>174</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>175</Result>
+          <Value>175</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>176</Result>
+          <Value>176</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>177</Result>
+          <Value>177</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>178</Result>
+          <Value>178</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>179</Result>
+          <Value>179</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>180</Result>
+          <Value>180</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Black</Result>
+          <Value>181</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>White</Result>
+          <Value>182</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Color Bkgd 1</Result>
+          <Value>183</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>184</Result>
+          <Value>184</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Color Bkgd 2</Result>
+          <Value>185</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>186</Result>
+          <Value>186</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FM1</Result>
+          <Value>187</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FM2</Result>
+          <Value>188</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FM3</Result>
+          <Value>189</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FM4</Result>
+          <Value>190</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FM5</Result>
+          <Value>191</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FM6</Result>
+          <Value>192</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FM7</Result>
+          <Value>193</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>FM8</Result>
+          <Value>194</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>195</Result>
+          <Value>195</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>196</Result>
+          <Value>196</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>197</Result>
+          <Value>197</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>198</Result>
+          <Value>198</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>199</Result>
+          <Value>199</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>200</Result>
+          <Value>200</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>201</Result>
+          <Value>201</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>202</Result>
+          <Value>202</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>203</Result>
+          <Value>203</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>204</Result>
+          <Value>204</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>205</Result>
+          <Value>205</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>206</Result>
+          <Value>206</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>DME MON 1</Result>
+          <Value>207</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>DME MON 2</Result>
+          <Value>208</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>209</Result>
+          <Value>209</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>210</Result>
+          <Value>210</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>211</Result>
+          <Value>211</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>212</Result>
+          <Value>212</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>213</Result>
+          <Value>213</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>214</Result>
+          <Value>214</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ME1 OUT 1</Result>
+          <Value>215</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ME1 OUT 2</Result>
+          <Value>216</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ME1 OUT 3</Result>
+          <Value>217</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ME1 OUT 4</Result>
+          <Value>218</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>219</Result>
+          <Value>219</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>220</Result>
+          <Value>220</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>221</Result>
+          <Value>221</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>222</Result>
+          <Value>222</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>223</Result>
+          <Value>223</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>224</Result>
+          <Value>224</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>225</Result>
+          <Value>225</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>226</Result>
+          <Value>226</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>227</Result>
+          <Value>227</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>228</Result>
+          <Value>228</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>229</Result>
+          <Value>229</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>230</Result>
+          <Value>230</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ME2 OUT 1</Result>
+          <Value>231</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ME2 OUT 2</Result>
+          <Value>232</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ME2 OUT 3</Result>
+          <Value>233</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ME2 OUT 4</Result>
+          <Value>234</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>235</Result>
+          <Value>235</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>236</Result>
+          <Value>236</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>237</Result>
+          <Value>237</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>238</Result>
+          <Value>238</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>239</Result>
+          <Value>239</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>240</Result>
+          <Value>240</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>241</Result>
+          <Value>241</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>242</Result>
+          <Value>242</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>243</Result>
+          <Value>243</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>244</Result>
+          <Value>244</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>245</Result>
+          <Value>245</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>246</Result>
+          <Value>246</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>247</Result>
+          <Value>247</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>248</Result>
+          <Value>248</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>249</Result>
+          <Value>249</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>250</Result>
+          <Value>250</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>251</Result>
+          <Value>251</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>252</Result>
+          <Value>252</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>253</Result>
+          <Value>253</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>254</Result>
+          <Value>254</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>255</Result>
+          <Value>255</Value>
+        </DeviceQueryResult>
+      </a:Value>
+    </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+    <a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+      <a:Key>Aux XPTs</a:Key>
+      <a:Value>
+        <DeviceQueryResult>
+          <Result>AUX1</Result>
+          <Value>0</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX2</Result>
+          <Value />
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX3</Result>
+          <Value>2</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX4</Result>
+          <Value>3</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX5</Result>
+          <Value>4</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX6</Result>
+          <Value>5</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX7</Result>
+          <Value>6</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX8</Result>
+          <Value>7</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX9</Result>
+          <Value>8</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX10</Result>
+          <Value>9</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX11</Result>
+          <Value>:</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX12</Result>
+          <Value>;</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX13</Result>
+          <Value>&lt;</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX14</Result>
+          <Value>=</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX15</Result>
+          <Value>&gt;</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX16</Result>
+          <Value>@</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX17</Result>
+          <Value>A</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX18</Result>
+          <Value>B</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX19</Result>
+          <Value>C</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX21</Result>
+          <Value>E</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX22</Result>
+          <Value>F</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX23</Result>
+          <Value>G</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX24</Result>
+          <Value>H</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX20</Result>
+          <Value>D</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>AUX2</Result>
+          <Value>1</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>EDIT PVW</Result>
+          <Value>?</Value>
+        </DeviceQueryResult>
+      </a:Value>
+    </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+  </ArgumentLists>
+  <BasicHTTPAuthentication>false</BasicHTTPAuthentication>
+  <CanRecord>false</CanRecord>
+  <CommandSetVariables />
+  <Commands>
+    <Command>
+      <Arguments>
+        <Argument>
+          <ArgumentOptionList>Effects</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>b8497cab-a87d-4d62-8c21-aeb3ddfbf9f1</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Effect</Name>
+          <Options />
+          <Order>1</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>&#x0;</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+        <Argument>
+          <ArgumentOptionList>Commands</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>b9f239ae-935b-4c12-b21d-a76bef15dc48</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Command</Name>
+          <Options />
+          <Order>2</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>À</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+        <Argument>
+          <ArgumentOptionList>TallySource</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>6a1b71cc-c302-423a-9eab-3994e74324f2</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Tally and Source</Name>
+          <Options />
+          <Order>3</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>&#x0;</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+        <Argument>
+          <ArgumentOptionList>Sources 1-255</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>1a621436-2606-4614-bfd3-7cb6ece58fe2</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Source</Name>
+          <Options />
+          <Order>4</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>true</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>0</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+      </Arguments>
+      <Description />
+      <DontUseFooter>false</DontUseFooter>
+      <DontUseHeader>false</DontUseHeader>
+      <HTTPRequest>GET</HTTPRequest>
+      <HTTPURL i:nil="true" />
+      <Id>e33249bf-bf94-4c21-8fd8-09315a2bf319</Id>
+      <Information i:nil="true" />
+      <IsVariableCommand>false</IsVariableCommand>
+      <Name>M/E Crosspoint</Name>
+      <Selections />
+      <SendArgumentsAsCommands>false</SendArgumentsAsCommands>
+      <SendHTTPAsync>false</SendHTTPAsync>
+      <Type i:nil="true" />
+      <UseMessageAsURL>false</UseMessageAsURL>
+      <Value>&#x4;</Value>
+    </Command>
+    <Command>
+      <Arguments>
+        <Argument>
+          <ArgumentOptionList>Aux XPTs</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter>À</HiddenFooter>
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>b8497cab-a87d-4d62-8c21-aeb3ddfbf9f1</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Effect</Name>
+          <Options />
+          <Order>1</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>0</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+        <Argument>
+          <ArgumentOptionList>TallySource</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>6a1b71cc-c302-423a-9eab-3994e74324f2</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Tally and Source</Name>
+          <Options />
+          <Order>2</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>&#x0;</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+        <Argument>
+          <ArgumentOptionList>Sources 1-255</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>1a621436-2606-4614-bfd3-7cb6ece58fe2</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Source</Name>
+          <Options />
+          <Order>3</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>true</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>0</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+      </Arguments>
+      <Description />
+      <DontUseFooter>false</DontUseFooter>
+      <DontUseHeader>false</DontUseHeader>
+      <HTTPRequest>GET</HTTPRequest>
+      <HTTPURL i:nil="true" />
+      <Id>1b335d66-3965-4afe-b82f-4f208169fea3</Id>
+      <Information i:nil="true" />
+      <IsVariableCommand>false</IsVariableCommand>
+      <Name>Aux Crosspoint</Name>
+      <Selections />
+      <SendArgumentsAsCommands>false</SendArgumentsAsCommands>
+      <SendHTTPAsync>false</SendHTTPAsync>
+      <Type i:nil="true" />
+      <UseMessageAsURL>false</UseMessageAsURL>
+      <Value>&#x4;</Value>
+    </Command>
+  </Commands>
+  <CopyPlugInToDirectory>false</CopyPlugInToDirectory>
+  <DeviceType i:nil="true" />
+  <DisplayHex>false</DisplayHex>
+  <Id>47748212-4887-4eb4-b438-3c793d50072c</Id>
+  <IsSystemCommandSet>false</IsSystemCommandSet>
+  <IsVisca>false</IsVisca>
+  <JavascriptSDKCode i:nil="true" />
+  <KeepAliveCommandString i:nil="true" />
+  <KeepAliveInterval>0</KeepAliveInterval>
+  <LookUpLists xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <Manufacturer>Sony</Manufacturer>
+  <Name>Sony MVS-6500-3000 Switcher XPT</Name>
+  <NoSpaceBetweenArgCmd>true</NoSpaceBetweenArgCmd>
+  <PromptForPassword>false</PromptForPassword>
+  <PromptForUserName>false</PromptForUserName>
+  <Protocol>TCP</Protocol>
+  <RequiresAuthentication>false</RequiresAuthentication>
+  <ResponseAssemblyName i:nil="true" />
+  <SendArgumentsFirst>false</SendArgumentsFirst>
+  <SendCarriageReturn>false</SendCarriageReturn>
+  <SendLineFeed>false</SendLineFeed>
+  <Settings>
+    <Setting>
+      <HasSpecialCharacters>false</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>IPAddress</Name>
+      <Options />
+      <Prompt>IP Address</Prompt>
+      <ValidationMessage />
+      <Value>127.0.0.1</Value>
+    </Setting>
+    <Setting>
+      <HasSpecialCharacters>false</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>PortNumber</Name>
+      <Options />
+      <Prompt>Port Number</Prompt>
+      <ValidationMessage>Setting Not Valid</ValidationMessage>
+      <Value i:nil="true" />
+    </Setting>
+    <Setting>
+      <HasSpecialCharacters>true</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>Header</Name>
+      <Options />
+      <Prompt>Header</Prompt>
+      <ValidationMessage />
+      <Value />
+    </Setting>
+    <Setting>
+      <HasSpecialCharacters>true</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>Footer</Name>
+      <Options />
+      <Prompt>Footer</Prompt>
+      <ValidationMessage />
+      <Value />
+    </Setting>
+    <Setting>
+      <HasSpecialCharacters>true</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>Argument Delimiter</Name>
+      <Options />
+      <Prompt>Delimiter</Prompt>
+      <ValidationMessage />
+      <Value />
+    </Setting>
+  </Settings>
+  <TelnetPasswordKeyword i:nil="true" />
+  <TelnetUsernameKeyword i:nil="true" />
+  <UseBytes>false</UseBytes>
+  <Variables />
+  <WaitForDeviceAck>false</WaitForDeviceAck>
+</CommandSet>
