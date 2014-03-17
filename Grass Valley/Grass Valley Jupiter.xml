@@ -1,0 +1,295 @@
+<CommandSet xmlns="http://schemas.datacontract.org/2004/07/Model" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <ArgumentLists xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+      <a:Key>ONOFFList</a:Key>
+      <a:Value>
+        <DeviceQueryResult>
+          <Result>OFF</Result>
+          <Value>0</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>ON</Result>
+          <Value>1</Value>
+        </DeviceQueryResult>
+      </a:Value>
+    </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+  </ArgumentLists>
+  <BasicHTTPAuthentication>false</BasicHTTPAuthentication>
+  <CanRecord>false</CanRecord>
+  <CommandSetVariables />
+  <Commands>
+    <Command>
+      <Arguments>
+        <Argument>
+          <ArgumentOptionList i:nil="true" />
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>0a796e7f-5ab4-42f3-b3d6-6d91d2b7c55c</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>false</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Input</Name>
+          <Options />
+          <Order>1</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>001</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+        <Argument>
+          <ArgumentOptionList i:nil="true" />
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>4dc298dd-2b47-48b1-98ca-bef9ee4196e8</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>false</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Output</Name>
+          <Options />
+          <Order>2</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>001</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+        <Argument>
+          <ArgumentOptionList i:nil="true" />
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>45004aa8-9670-44d8-9d36-bee4f68750ef</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>false</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Level</Name>
+          <Options />
+          <Order>3</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value i:nil="true" />
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+      </Arguments>
+      <Description />
+      <DontUseFooter>false</DontUseFooter>
+      <DontUseHeader>false</DontUseHeader>
+      <HTTPRequest>GET</HTTPRequest>
+      <HTTPURL i:nil="true" />
+      <Id>ec3ca01d-990a-4be5-8839-962b34fee9cd</Id>
+      <Information i:nil="true" />
+      <IsVariableCommand>false</IsVariableCommand>
+      <Name>Switch</Name>
+      <Selections />
+      <SendArgumentsAsCommands>false</SendArgumentsAsCommands>
+      <SendHTTPAsync>false</SendHTTPAsync>
+      <Type i:nil="true" />
+      <UseMessageAsURL>false</UseMessageAsURL>
+      <Value />
+    </Command>
+  </Commands>
+  <CopyPlugInToDirectory>false</CopyPlugInToDirectory>
+  <DeviceType i:nil="true" />
+  <DisplayHex>false</DisplayHex>
+  <Id>231cad27-cae3-42c8-b2cf-3d341f56d3bd</Id>
+  <IsSystemCommandSet>false</IsSystemCommandSet>
+  <IsVisca>false</IsVisca>
+  <JavascriptSDKCode i:nil="true" />
+  <KeepAliveCommandString i:nil="true" />
+  <KeepAliveInterval>0</KeepAliveInterval>
+  <LookUpLists xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <Manufacturer>GrassValley</Manufacturer>
+  <Name>Grass Valley Jupiter</Name>
+  <NoSpaceBetweenArgCmd>true</NoSpaceBetweenArgCmd>
+  <PromptForPassword>false</PromptForPassword>
+  <PromptForUserName>false</PromptForUserName>
+  <Protocol>TCP</Protocol>
+  <RequiresAuthentication>false</RequiresAuthentication>
+  <ResponseAssemblyName i:nil="true" />
+  <SendArgumentsFirst>false</SendArgumentsFirst>
+  <SendCarriageReturn>false</SendCarriageReturn>
+  <SendLineFeed>false</SendLineFeed>
+  <Settings>
+    <Setting>
+      <HasSpecialCharacters>false</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>IPAddress</Name>
+      <Options />
+      <Prompt>IP Address</Prompt>
+      <ValidationMessage />
+      <Value>127.0.0.1</Value>
+    </Setting>
+    <Setting>
+      <HasSpecialCharacters>false</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>PortNumber</Name>
+      <Options />
+      <Prompt>Port Number</Prompt>
+      <ValidationMessage>Setting Not Valid</ValidationMessage>
+      <Value i:nil="true" />
+    </Setting>
+    <Setting>
+      <HasSpecialCharacters>true</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>Header</Name>
+      <Options />
+      <Prompt>Header</Prompt>
+      <ValidationMessage />
+      <Value />
+    </Setting>
+    <Setting>
+      <HasSpecialCharacters>true</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>Footer</Name>
+      <Options />
+      <Prompt>Footer</Prompt>
+      <ValidationMessage />
+      <Value>
+      </Value>
+    </Setting>
+    <Setting>
+      <HasSpecialCharacters>true</HasSpecialCharacters>
+      <IsInternal>false</IsInternal>
+      <Name>Argument Delimiter</Name>
+      <Options />
+      <Prompt>Delimiter</Prompt>
+      <ValidationMessage />
+      <Value />
+    </Setting>
+  </Settings>
+  <TelnetPasswordKeyword i:nil="true" />
+  <TelnetUsernameKeyword i:nil="true" />
+  <UseBytes>false</UseBytes>
+  <Variables />
+  <WaitForDeviceAck>false</WaitForDeviceAck>
+</CommandSet>
