@@ -31,7 +31,7 @@
       <a:Value>
         <DeviceQueryResult>
           <Result>SD to 4:3</Result>
-          <Value>WidescreenSD: auto</Value>
+          <Value>WidescreenSD: off</Value>
         </DeviceQueryResult>
         <DeviceQueryResult>
           <Result>SD to 16:9</Result>
@@ -57,23 +57,23 @@
       <a:Value>
         <DeviceQueryResult>
           <Result>Video Monitor</Result>
-          <Value>Video Monitor</Value>
+          <Value>Picture</Value>
         </DeviceQueryResult>
         <DeviceQueryResult>
           <Result>Waveform</Result>
-          <Value>Waveform</Value>
+          <Value>WaveformLuma</Value>
         </DeviceQueryResult>
         <DeviceQueryResult>
-          <Result>Vectorscope</Result>
-          <Value>Vectorscope</Value>
+          <Result>Vectorscope 100</Result>
+          <Value>Vector100</Value>
         </DeviceQueryResult>
         <DeviceQueryResult>
           <Result>RGB Parade</Result>
-          <Value>RGB Parade</Value>
+          <Value>ParadeRGB</Value>
         </DeviceQueryResult>
         <DeviceQueryResult>
           <Result>YUV Parade</Result>
-          <Value>YUV Parade</Value>
+          <Value>ParadeYUV</Value>
         </DeviceQueryResult>
         <DeviceQueryResult>
           <Result>Histogram</Result>
@@ -81,11 +81,52 @@
         </DeviceQueryResult>
         <DeviceQueryResult>
           <Result>Audio dBFS</Result>
-          <Value>Audio dBFS</Value>
+          <Value>AudioDbfs</Value>
         </DeviceQueryResult>
         <DeviceQueryResult>
           <Result>Audio dBVU</Result>
-          <Value>Audio dBVU</Value>
+          <Value>AudioDbvu</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Vectorscope 75</Result>
+          <Value>Vector75</Value>
+        </DeviceQueryResult>
+      </a:Value>
+    </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+    <a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+      <a:Key>Audio Channels</a:Key>
+      <a:Value>
+        <DeviceQueryResult>
+          <Result>Channels 1 and 2</Result>
+          <Value>0</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Channels 3 and 4</Result>
+          <Value>1</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Channels 5 and 6</Result>
+          <Value>2</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Channels 7 and 8</Result>
+          <Value>3</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Channels 9 and 10</Result>
+          <Value>4</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Channels 11 and 12</Result>
+          <Value>5</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Channels 13 and 14</Result>
+          <Value>6</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Channels 15 and 16</Result>
+          <Value>7</Value>
         </DeviceQueryResult>
       </a:Value>
     </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
@@ -871,7 +912,7 @@
           <GetFromPlayList>false</GetFromPlayList>
           <HasOptions>false</HasOptions>
           <HiddenFooter />
-          <HiddenHeader>Display: </HiddenHeader>
+          <HiddenHeader>ScopeMode: </HiddenHeader>
           <HiddenValue i:nil="true" />
           <Id>b8786288-d924-4c06-96d0-eac961d9f874</Id>
           <IncludeInCheckSum>false</IncludeInCheckSum>
@@ -887,7 +928,7 @@
           <LookUpList i:nil="true" />
           <MaxValueRange>0</MaxValueRange>
           <MinValueRange>0</MinValueRange>
-          <Name>Aspect Ratio</Name>
+          <Name>Mode</Name>
           <Options />
           <Order>2</Order>
           <PrevNext>false</PrevNext>
@@ -927,6 +968,146 @@
       <Information i:nil="true" />
       <IsVariableCommand>false</IsVariableCommand>
       <Name>Set Display Scope</Name>
+      <Selections />
+      <SendArgumentsAsCommands>false</SendArgumentsAsCommands>
+      <SendHTTPAsync>false</SendHTTPAsync>
+      <Type i:nil="true" />
+      <UseMessageAsURL>false</UseMessageAsURL>
+      <Value />
+    </Command>
+    <Command>
+      <Arguments>
+        <Argument>
+          <ArgumentOptionList>Monitors</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter>
+          </HiddenFooter>
+          <HiddenHeader />
+          <HiddenValue i:nil="true" />
+          <Id>91eba65c-df3c-4444-ac3c-c550a9271afe</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Monitor</Name>
+          <Options />
+          <Order>1</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>MONITOR A:</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+        <Argument>
+          <ArgumentOptionList>Scopes</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader>AudioChannel: </HiddenHeader>
+          <HiddenValue i:nil="true" />
+          <Id>b8786288-d924-4c06-96d0-eac961d9f874</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Channel</Name>
+          <Options />
+          <Order>2</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>0</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
+      </Arguments>
+      <Description />
+      <DontUseFooter>false</DontUseFooter>
+      <DontUseHeader>false</DontUseHeader>
+      <HTTPRequest>GET</HTTPRequest>
+      <HTTPURL i:nil="true" />
+      <Id>fc2f4203-5aa7-49e9-a069-cf4641b13f20</Id>
+      <Information i:nil="true" />
+      <IsVariableCommand>false</IsVariableCommand>
+      <Name>Set Audio Channel</Name>
       <Selections />
       <SendArgumentsAsCommands>false</SendArgumentsAsCommands>
       <SendHTTPAsync>false</SendHTTPAsync>
