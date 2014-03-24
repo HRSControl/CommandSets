@@ -52,6 +52,43 @@
         </DeviceQueryResult>
       </a:Value>
     </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+    <a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
+      <a:Key>Scopes</a:Key>
+      <a:Value>
+        <DeviceQueryResult>
+          <Result>Video Monitor</Result>
+          <Value>Video Monitor</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Waveform</Result>
+          <Value>Waveform</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Vectorscope</Result>
+          <Value>Vectorscope</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>RGB Parade</Result>
+          <Value>RGB Parade</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>YUV Parade</Result>
+          <Value>YUV Parade</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Histogram</Result>
+          <Value>Histogram</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Audio dBFS</Result>
+          <Value>Audio dBFS</Value>
+        </DeviceQueryResult>
+        <DeviceQueryResult>
+          <Result>Audio dBVU</Result>
+          <Value>Audio dBVU</Value>
+        </DeviceQueryResult>
+      </a:Value>
+    </a:KeyValueOfstringArrayOfDeviceQueryResultzsY_SOkxf>
   </ArgumentLists>
   <BasicHTTPAuthentication>false</BasicHTTPAuthentication>
   <CanRecord>false</CanRecord>
@@ -776,7 +813,7 @@
           </HiddenFooter>
           <HiddenHeader />
           <HiddenValue i:nil="true" />
-          <Id>3cf86ade-1519-41e4-ac27-73cf5a251bde</Id>
+          <Id>91eba65c-df3c-4444-ac3c-c550a9271afe</Id>
           <IncludeInCheckSum>false</IncludeInCheckSum>
           <IsCheckSum>false</IsCheckSum>
           <IsClipList>false</IsClipList>
@@ -790,7 +827,7 @@
           <LookUpList i:nil="true" />
           <MaxValueRange>0</MaxValueRange>
           <MinValueRange>0</MinValueRange>
-          <Name> Monitor</Name>
+          <Name>Monitor</Name>
           <Options />
           <Order>1</Order>
           <PrevNext>false</PrevNext>
@@ -820,16 +857,76 @@
           <VariableId i:nil="true" />
           <WaitTime>0</WaitTime>
         </Argument>
+        <Argument>
+          <ArgumentOptionList>Scopes</ArgumentOptionList>
+          <CanDecrement>false</CanDecrement>
+          <CanIncrement>false</CanIncrement>
+          <Description i:nil="true" />
+          <DontUseDelimeter>false</DontUseDelimeter>
+          <EndOfFirstQuery i:nil="true" />
+          <EndOfFirstQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <EndOfSecondQuery i:nil="true" />
+          <EndOfSecondQueryIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <FirstQueryCommand i:nil="true" />
+          <GetFromPlayList>false</GetFromPlayList>
+          <HasOptions>false</HasOptions>
+          <HiddenFooter />
+          <HiddenHeader>Display: </HiddenHeader>
+          <HiddenValue i:nil="true" />
+          <Id>b8786288-d924-4c06-96d0-eac961d9f874</Id>
+          <IncludeInCheckSum>false</IncludeInCheckSum>
+          <IsCheckSum>false</IsCheckSum>
+          <IsClipList>false</IsClipList>
+          <IsHex>false</IsHex>
+          <IsInverseCheckSum>false</IsInverseCheckSum>
+          <IsLeastSignificant2sCheckSum>false</IsLeastSignificant2sCheckSum>
+          <IsList>true</IsList>
+          <IsMacro>false</IsMacro>
+          <IsPlaylist>false</IsPlaylist>
+          <IsReadOnly>false</IsReadOnly>
+          <LookUpList i:nil="true" />
+          <MaxValueRange>0</MaxValueRange>
+          <MinValueRange>0</MinValueRange>
+          <Name>Aspect Ratio</Name>
+          <Options />
+          <Order>2</Order>
+          <PrevNext>false</PrevNext>
+          <QueryDeviceForList>false</QueryDeviceForList>
+          <QueryListKey i:nil="true" />
+          <QueryMessageIndexStart>0</QueryMessageIndexStart>
+          <QueryMessageLength>0</QueryMessageLength>
+          <RequireValueForHeaderFooters>false</RequireValueForHeaderFooters>
+          <SecondQueryCommand i:nil="true" />
+          <SendASCII>false</SendASCII>
+          <SendAsByte>false</SendAsByte>
+          <SendHexString>false</SendHexString>
+          <SendNewLine>false</SendNewLine>
+          <TranslateValueToRange>false</TranslateValueToRange>
+          <TranslationUnits>255</TranslationUnits>
+          <TranslationValue>0</TranslationValue>
+          <UseClipListIndex>false</UseClipListIndex>
+          <UseHiddenValue>false</UseHiddenValue>
+          <UseListValue>true</UseListValue>
+          <UseSliderValue>false</UseSliderValue>
+          <UseTranslationValue>false</UseTranslationValue>
+          <UseVariable>false</UseVariable>
+          <UseVariableValue>false</UseVariableValue>
+          <UseVariableValueId i:nil="true" />
+          <ValidationMessage i:nil="true" />
+          <Value>Video Monitor</Value>
+          <VariableId i:nil="true" />
+          <WaitTime>0</WaitTime>
+        </Argument>
       </Arguments>
       <Description />
       <DontUseFooter>false</DontUseFooter>
       <DontUseHeader>false</DontUseHeader>
       <HTTPRequest>GET</HTTPRequest>
       <HTTPURL i:nil="true" />
-      <Id>c04bb995-07a1-4dbf-b97b-47bf4dbc5e8d</Id>
+      <Id>5514cec8-944b-47d6-817a-4426019883c6</Id>
       <Information i:nil="true" />
       <IsVariableCommand>false</IsVariableCommand>
-      <Name>Get Values</Name>
+      <Name>Set Display Scope</Name>
       <Selections />
       <SendArgumentsAsCommands>false</SendArgumentsAsCommands>
       <SendHTTPAsync>false</SendHTTPAsync>
