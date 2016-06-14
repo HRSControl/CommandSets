@@ -1,0 +1,99 @@
+GET UDVALUE:
+
+Send:
+<scrn#>,GCsta\x0A
+
+Get:
+GCsta<scrn#>,<UDvalue>\x0D\x0A
+
+if UDvalue + Program Destination = 0,2,4 or if UDvalue + Preview Dest = 1,3,5 
+
+then use GCpdn
+
+else use GCpup
+
+
+GET ABVALUE:
+
+send:
+<scrn#>,GCpdn\x0A
+
+get:
+GCpdn<scrn#>,<ABvalue>\x0D\x0A
+
+OR
+
+use GCpup instead of GCpdn
+
+
+TO GET POSITION send:
+
+<scrn#>,<ABValue>,<layer>,PRpoh\x0A
+and
+<scrn#>,<ABValue>,<layer>,PRpov\x0A
+
+get:
+
+PRpoh<scrn#>,<ABvalue>,<layer>,<posh>\x0D\x0A (posh is horizontal)
+PRpov<scrn#>,<ABvalue>,<layer>,<posv>\x0D\x0A (posv is vertical)
+
+TO SET POSITIION send:
+
+<scrn#>,<ABValue>,<layer>,<posh>,PRpoh\x0A
+and
+<scrn#>,<ABValue>,<layer>,<posv>,PRpov\x0A
+
+Get:
+
+PRpoh<scrn#>,<ABvalue>,<layer>,<posh>\x0D\x0A
+PRpov<scrn#>,<ABvalue>,<layer>,<posv>\x0D\x0A
+
+
+
+
+Send:
+<scrn#>,GCsta\x0A
+
+Get:
+GCsta<scrn#>,<UDvalue>\x0D\x0A
+
+if UDvalue + Program Destination = 0,2,4 or if UDvalue + Preview Dest = 1,3,5 
+
+then use GCpdn
+
+else use GCpup
+
+send:
+<scrn#>,GCpdn\x0A
+
+get:
+GCpdn<scrn#>,<ABvalue>\x0D\x0A
+
+OR
+
+use GCpup instead of GCpdn
+
+GET SIZE send:
+
+<scrn#>,<ABvalue>,<layer>,PRsih\x0A
+and
+<scrn#>,<ABvalue>,<layer>,PRsiv\x0A
+
+GET:
+PRsih<scrn#>,<ABvalue>,<layer>,<width>\x0D\x0A
+and
+PRsiv<scrn#>,<ABvalue>,<layer>,<height>\x0D\x0A
+
+
+
+SET SIZE send:
+
+<scrn#>,<ABvalue>,<layer>,<width>PRsih\x0A
+and
+<scrn#>,<ABvalue>,<layer>,<height>PRsiv\x0A
+
+Get:
+
+PRsih<scrn#>,<ABvalue>,<layer>,<width>\x0D\x0A
+and
+PRsiv<scrn#>,<ABvalue>,<layer>,<height>\x0D\x0A

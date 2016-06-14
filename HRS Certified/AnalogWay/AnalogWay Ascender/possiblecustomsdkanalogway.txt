@@ -1,0 +1,29 @@
+exports.processResponse = function(data, d, sdk){
+    var s= data.toString();
+    var lines = s.split("\r\n");
+    
+    var lineIndex = 0;
+    lines.forEach(function(dataString){
+
+    if(dataString.contains("GCsta")){
+    var prompts = dataString.split(",");
+
+var udValue = prompts[1].replaceAll("GCsta","")
+
+if(udValue == 0 || 2 || 4 and Progam Destination == 0 || 2 || 4) || (udValue == 1 || 3 || 5 and Preview Destination == 1 || 3 || 5) {
+
+	sdk.setDeviceVariableValue(d,"udStatus","GCpdn"};
+
+else {
+	sdk.setDeviceVariableValue(d,"udStatus","GCpup"};
+}
+
+//SEND <scrn>,udStatus
+
+if(dataString.contains("GCpdn" || "GCpup")){
+	var prompts = dataString.split(",");
+
+	var abValue = data.string[1]
+	
+	sdk.setDeviceVariableValue(d,"abValue",abValue);
+}
